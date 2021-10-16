@@ -76,6 +76,16 @@ BODY {
   display:inline;
 }
 
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 0px;
+	}
+
+ul#horizontal-list li {
+		display: inline;
+	}
+
 .degrees{
   margin-top: 5px;
   margin-bottom: 0px;
