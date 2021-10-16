@@ -1,26 +1,97 @@
-BODY{
+BODY {
   font-family: 'Open Sans', Arial, sans-serif;
   Color:#444;
   font-weight:400;
 }
 
-h1{
+#name {
   color:#33485e;
   text-transform:uppercase;
   text-align:center;
-  font-szie:3em;
+  font-size:3em;
+  border-bottom:1px solid #33485e;
+  width: 60px;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
-strong{
+.title {
   color:#33485e;
   text-transform:uppercase;
-  font-soze:1.5em;
+  font-size:1.5em;
+  font-weight:600;
+  text-align:left;
+  margin-top:20px;
+  margin-bottom:0px;
+  margin-left: 0px;
+  margin-right:0px;
 }
-
-h2{
+.jobtitle{
+  font-weight:700;
+}
+.sectionheader {
   font-size:1.5em;
   text-transform:uppercase;
   background-color:#33485e;
   color:#ffffff;
   font-weight:400;
+  margin-top:20px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right:0px;
+  width: 70%;
+  min-width:300px;
+
+}
+
+.organization {
+  font-size:1.25em;
+}
+
+.date {
+  margin-top: 2px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.description{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.menu{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align:center;
+  list-style: none;
+  display:inline;
+}
+
+.degrees{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.do{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#container {
+  width:100%;
+  max-width:1200px;
+  margin: 0 auto;
 }
