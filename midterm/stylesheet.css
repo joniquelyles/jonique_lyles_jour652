@@ -1,5 +1,5 @@
 #h1{
-  font-family: Serif;
+  font-family: Serif ;
   font-size: 100px;
   font-weight: bold;
   font-style: italic;
@@ -59,3 +59,44 @@ p {
     font-size: 40px;
     font-style: bold;
   }
+
+  .menu{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align:center;
+    list-style: none;
+    display:inline;
+  }
+
+  ul#horizontal-list {
+  	min-width: 696px;
+  	list-style: none;
+  	padding-top: 0px;
+  	}
+
+  ul#horizontal-list li {
+  		display: inline;
+  	}
+
+  ul#vertical-list {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 0px;
+
+  	}
+    ul#vertical-list li {
+        display: left;
+      }
+  .boxed {
+        border: 5px dotted black ;
+        color: gray;
+      }
+  .boxedone {
+        border: 5px solid purple ;
+      }
