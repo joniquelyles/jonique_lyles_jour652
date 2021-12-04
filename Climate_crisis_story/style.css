@@ -14,8 +14,8 @@ text-align: center;
 }
 
 p{
-  font-family: 'Georgia', serif;
-  line-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.8;
   font-size: 1em;
 }
 
@@ -60,7 +60,7 @@ p{
 }
 
 .hero-hed{
-  font-family: ' Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 6em;
   color:#fff;
   margin: 0 auto;
@@ -102,40 +102,37 @@ p{
 
 /*sidebar */
 
+.boxed {
+      border: 5px solid red ;
+    }
 
-html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+.text-box-title{
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  font-size:3em;
+  font-weight:700;
+  text-align:left;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid #f23030;
+  border-bottom: 1px solid #f23030;
+  margin-top:20px;
+  Margin-bottom:20px;
+
 }
 
-#sidebar, #content {
-  height: 20%;
-  overflow:auto;
-  float:left;
-  transition: width .35s;
+.text-box-intro-text{
+
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  text-align: left;
+  color:#000;
 }
 
-#sidebar {
-  background:white;
-  width: 10%;
-}
-
-#sidebar.collapsed {
-  width: 0;
-}
-
-#sidebar.collapsed + #content {
-  width: 70%;
-}
-
-#content {
-  background:gray;
-  width: 40%;
-}
-
-button {
-  width: 120px;
-  height: 80px;
-  background: white;
+.text-box-text{
+  font-size: .8em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  text-align: left;
+  color:#000;
 }
